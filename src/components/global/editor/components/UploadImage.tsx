@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { FileUploaderRegular } from '@uploadcare/react-uploader/next';
 import '@uploadcare/react-uploader/core.css';
@@ -20,9 +21,9 @@ const UploadImage = ({
   return (
     <div>
       <FileUploaderRegular
-         sourceList="local, url, dropbox"
-         classNameUploader="uc-light"
-         pubkey={process.env.UPLOADCARE_API_KEY!}
+        sourceList="local, gdrive"
+        classNameUploader="uc-purple"
+         pubkey={process.env.NEXT_PUBLIC_UPLOADCARE_API_KEY!}
          multiple={false}
          onFileUploadSuccess={handleChangeEvent}
          maxLocalFileSizeBytes={10000000}

@@ -58,6 +58,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "2iors8e6pv.ucarecd.net",
+        port: "",
+        pathname: "/**",
+      },
     ]
   }
 };
