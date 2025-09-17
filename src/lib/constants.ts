@@ -92,6 +92,7 @@ export const themes: Theme[] = [
     accentColor: "#3b82f6",
     navbarColor: "#ffffff",
     sidebarColor: "#f0f0f0",
+    secondaryColor: "#444444",
     type: "light",
   },
   {
@@ -104,6 +105,7 @@ export const themes: Theme[] = [
     gradientBackground: "linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%)",
     navbarColor: "#2c2c2c",
     sidebarColor: "#1a1a1a",
+    secondaryColor: "#cccccc",
     type: "dark",
   },
   {

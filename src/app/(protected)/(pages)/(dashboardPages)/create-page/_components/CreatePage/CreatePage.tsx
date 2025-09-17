@@ -56,7 +56,8 @@ const CreatePage = ({onSelectOption}:Props) => {
                                     {option.highlightedText}
                                 </p>
                             </div>
-                            <p className='text-secondary text-sm font-normal'>
+                            <p className='text-secondary text-sm font-normal'
+                               style={{ color: 'rgba(255,255,255,0.85)', textShadow: '0 1px 4px rgba(0,0,0,0.5)' }}>
                                 {option.description}
                             </p>
                         </div>
